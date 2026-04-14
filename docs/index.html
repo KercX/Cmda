@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cmda - Documentation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><span class="logo">CMDA</span></h1>
+            <p class="tagline">Modern Command Framework for Roblox (Luau)</p>
+            <nav>
+                <a href="#overview">Overview</a>
+                <a href="#features">Features</a>
+                <a href="#getting-started">Getting Started</a>
+                <a href="#api">API</a>
+                <a href="#examples">Examples</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="overview">
+            <h2>Overview</h2>
+            <p><strong>Cmda</strong> is a lightweight, extensible, and modern command console framework for Roblox experiences.</p>
+            <p>Inspired by evaera/Cmdr but rebuilt with clean architecture, better UI, and easier customization.</p>
+            <p class="author">Made with ❤️ by <strong>KercX</strong></p>
+        </section>
+
+        <section id="features">
+            <h2>Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Fully Typed Arguments</h3>
+                    <p>Custom argument types with parsing and validation.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Client & Server Validation</h3>
+                    <p>Safe command execution with hooks.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-terminal"></i>
+                    <h3>Modern UI</h3>
+                    <p>Beautiful dark console with history and smooth UX.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-plug"></i>
+                    <h3>Extensible</h3>
+                    <p>Easy to add commands, types, and hooks.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="getting-started">
+            <h2>Getting Started</h2>
+            <p>Clone the repository and use Rojo to sync the project.</p>
+            <pre><code>git clone https://github.com/YOUR_USERNAME/Cmda.git</code></pre>
+            <!-- Додай більше інструкцій тут пізніше -->
+        </section>
+
+        <section id="api">
+            <h2>API Reference</h2>
+            <h3>Cmda:Start()</h3>
+            <p>Initializes the framework on client and server.</p>
+
+            <h3>Cmda:RegisterCommandsIn(container: Instance)</h3>
+            <p>Registers all commands from a folder.</p>
+
+            <h3>Cmda:RegisterTypesIn(container: Instance)</h3>
+            <p>Registers custom argument types.</p>
+
+            <h3>Cmda:RegisterHooksIn(container: Instance)</h3>
+            <p>Registers hooks (e.g. BeforeRun for permissions).</p>
+        </section>
+
+        <section id="examples">
+            <h2>Examples</h2>
+            <p>Check the <code>src/Commands/</code> and <code>src/Types/</code> folders in the repository for real examples.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 KercX • Cmda is licensed under the MIT License</p>
+            <p>
+                <a href="https://github.com/KercX/Cmda" target="_blank">GitHub</a> • 
+                <a href="CHANGELOG.md">Changelog</a> • 
+                <a href="CONTRIBUTING.md">Contributing</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
