@@ -1,0 +1,37 @@
+# Selene configuration for Cmda
+# Author: KercX
+
+std = "roblox"
+
+[rules]
+# Global variables
+global_usage = "allow"
+# We use many Roblox globals
+unused_variable = "allow"
+
+# Style rules
+if_same_then_else = "warn"
+manual_table_clone = "warn"
+mixed_table = "warn"
+multiple_statements = "warn"
+parentheses = "warn"
+shadowing = "warn"
+type_annotations = "warn"
+undefined_variable = "error"
+unnecessary_if = "warn"
+
+# Performance & best practices
+empty_if = "warn"
+for_loop_should_be_while = "warn"
+incorrect_roact_usage = "allow"   # not using Roact
+manual_memory_management = "warn"
+redundant_return = "warn"
+unused_function = "warn"
+
+# Roblox specific
+roblox_incorrect_wait = "warn"
+roblox_suspicious_udim2_new = "warn"
+
+# Strictness
+[selene]
+use_luau = true
