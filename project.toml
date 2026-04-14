@@ -1,0 +1,16 @@
+name = "Cmda"
+version = "0.1.0"
+
+[build]
+build = "build"
+servePort = 34872
+
+[tree]
+$className = "DataModel"
+
+[tree.ReplicatedStorage]
+$className = "ReplicatedStorage"
+$ignoreUnknownInstances = true
+
+[tree.ReplicatedStorage.Cmda]
+$path = "src"
