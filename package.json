@@ -1,0 +1,20 @@
+{
+  "name": "cmda",
+  "version": "0.1.0",
+  "description": "Modern extensible command framework for Roblox (Luau)",
+  "main": "src/Init.luau",
+  "scripts": {
+    "build": "rojo build -o Cmda.rbxm",
+    "watch": "rojo serve",
+    "lint": "selene src",
+    "format": "stylua src",
+    "test": "echo \"No tests yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KercX/Cmda"   //
+  },
+  "keywords": ["roblox", "luau", "command", "framework", "console", "admin"],
+  "author": "KercX",
+  "license": "MIT"
+}
